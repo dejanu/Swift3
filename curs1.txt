@@ -1,0 +1,18 @@
+NSLog = it is embedded in the framework and displays on new line and has the timestamp also
+let = used for define a constant it is deprecated now it is used '_'
+
+
+#1 added function with default arguments
+func printHelloWorld(message:String="default argument")
+When you call a function the name, use the name of arguments
+self.printHelloWorld(message:"Hello world")
+
+#2 added pop up (alert function) 
+func showAlert(){
+        let alertView = UIAlertView(
+            title :"info",
+            message :"Hello world",
+            delegate:nil,
+            cancelButtonTitle:"ok"
+        )
+        alertView.show()
