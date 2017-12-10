@@ -18,3 +18,22 @@ func showAlert(){
         alertView.show()
 
 #var carIfAny: String? = optional value it can be ommited
+
+-------------------------------------------
+//basic function implementation
+RandomCarName(is_romanian_car:Bool)->String{
+        if is_romanian_car == true {
+                return "Dacia"
+        }
+        else {
+                return "Audi"
+        }
+}
+
+//call the function
+let y = RandomCarName(is_romanian_car:true)
+print(y)
+
+#usefull oop shit : https://www.raywenderlich.com/160728/object-oriented-programming-swift
+
+
