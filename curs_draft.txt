@@ -35,5 +35,9 @@ let y = RandomCarName(is_romanian_car:true)
 print(y)
 
 #usefull oop shit : https://www.raywenderlich.com/160728/object-oriented-programming-swift
+----------------------------------------------
 
 
+#paintcodeapp.com - ios screens demistified
+#homework ; print screen cu celebrating 50 years of coding
+#add labels with position (x,y) at center button left
