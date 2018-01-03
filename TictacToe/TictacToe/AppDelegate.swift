@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Xand0
+//  TictacToe
 //
-//  Created by OLPS RO TV on 12/15/17.
+//  Created by OLPS RO TV on 12/31/17.
 //  Copyright © 2017 OLPS RO TV. All rights reserved.
 //
 

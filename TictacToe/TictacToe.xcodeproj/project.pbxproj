@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BAE9CB91FE42D0A00F6EEB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE9CB81FE42D0A00F6EEB0 /* AppDelegate.swift */; };
-		3BAE9CBB1FE42D0A00F6EEB0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE9CBA1FE42D0A00F6EEB0 /* GameViewController.swift */; };
-		3BAE9CBE1FE42D0A00F6EEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAE9CBC1FE42D0A00F6EEB0 /* Main.storyboard */; };
-		3BAE9CC01FE42D0A00F6EEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAE9CBF1FE42D0A00F6EEB0 /* Assets.xcassets */; };
-		3BAE9CC31FE42D0A00F6EEB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAE9CC11FE42D0A00F6EEB0 /* LaunchScreen.storyboard */; };
+		3B0C6C8A1FF8EC6C00D0151B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0C6C891FF8EC6C00D0151B /* AppDelegate.swift */; };
+		3B0C6C8C1FF8EC6C00D0151B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0C6C8B1FF8EC6C00D0151B /* ViewController.swift */; };
+		3B0C6C8F1FF8EC6C00D0151B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0C6C8D1FF8EC6C00D0151B /* Main.storyboard */; };
+		3B0C6C911FF8EC6C00D0151B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0C6C901FF8EC6C00D0151B /* Assets.xcassets */; };
+		3B0C6C941FF8EC6C00D0151B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0C6C921FF8EC6C00D0151B /* LaunchScreen.storyboard */; };
+		3B0C6C9E1FF8ECD600D0151B /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0C6C9B1FF8ECD600D0151B /* cross.png */; };
+		3B0C6C9F1FF8ECD600D0151B /* board.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B0C6C9C1FF8ECD600D0151B /* board.jpg */; };
+		3B0C6CA01FF8ECD600D0151B /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0C6C9D1FF8ECD600D0151B /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3BAE9CB51FE42D0A00F6EEB0 /* Xand0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xand0.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BAE9CB81FE42D0A00F6EEB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BAE9CBA1FE42D0A00F6EEB0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		3BAE9CBD1FE42D0A00F6EEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3BAE9CBF1FE42D0A00F6EEB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3BAE9CC21FE42D0A00F6EEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3BAE9CC41FE42D0A00F6EEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0C6C861FF8EC6C00D0151B /* TictacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TictacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0C6C891FF8EC6C00D0151B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B0C6C8B1FF8EC6C00D0151B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B0C6C8E1FF8EC6C00D0151B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B0C6C901FF8EC6C00D0151B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B0C6C931FF8EC6C00D0151B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B0C6C951FF8EC6C00D0151B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0C6C9B1FF8ECD600D0151B /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		3B0C6C9C1FF8ECD600D0151B /* board.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = board.jpg; sourceTree = "<group>"; };
+		3B0C6C9D1FF8ECD600D0151B /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3BAE9CB21FE42D0A00F6EEB0 /* Frameworks */ = {
+		3B0C6C831FF8EC6C00D0151B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +41,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BAE9CAC1FE42D0A00F6EEB0 = {
+		3B0C6C7D1FF8EC6C00D0151B = {
 			isa = PBXGroup;
 			children = (
-				3BAE9CB71FE42D0A00F6EEB0 /* Xand0 */,
-				3BAE9CB61FE42D0A00F6EEB0 /* Products */,
+				3B0C6C881FF8EC6C00D0151B /* TictacToe */,
+				3B0C6C871FF8EC6C00D0151B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3BAE9CB61FE42D0A00F6EEB0 /* Products */ = {
+		3B0C6C871FF8EC6C00D0151B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BAE9CB51FE42D0A00F6EEB0 /* Xand0.app */,
+				3B0C6C861FF8EC6C00D0151B /* TictacToe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BAE9CB71FE42D0A00F6EEB0 /* Xand0 */ = {
+		3B0C6C881FF8EC6C00D0151B /* TictacToe */ = {
 			isa = PBXGroup;
 			children = (
-				3BAE9CB81FE42D0A00F6EEB0 /* AppDelegate.swift */,
-				3BAE9CBA1FE42D0A00F6EEB0 /* GameViewController.swift */,
-				3BAE9CBC1FE42D0A00F6EEB0 /* Main.storyboard */,
-				3BAE9CBF1FE42D0A00F6EEB0 /* Assets.xcassets */,
-				3BAE9CC11FE42D0A00F6EEB0 /* LaunchScreen.storyboard */,
-				3BAE9CC41FE42D0A00F6EEB0 /* Info.plist */,
+				3B0C6C891FF8EC6C00D0151B /* AppDelegate.swift */,
+				3B0C6C8B1FF8EC6C00D0151B /* ViewController.swift */,
+				3B0C6C8D1FF8EC6C00D0151B /* Main.storyboard */,
+				3B0C6C901FF8EC6C00D0151B /* Assets.xcassets */,
+				3B0C6C921FF8EC6C00D0151B /* LaunchScreen.storyboard */,
+				3B0C6C951FF8EC6C00D0151B /* Info.plist */,
+				3B0C6C9C1FF8ECD600D0151B /* board.jpg */,
+				3B0C6C9B1FF8ECD600D0151B /* cross.png */,
+				3B0C6C9D1FF8ECD600D0151B /* nought.png */,
 			);
-			path = Xand0;
+			path = TictacToe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BAE9CB41FE42D0A00F6EEB0 /* Xand0 */ = {
+		3B0C6C851FF8EC6C00D0151B /* TictacToe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BAE9CC71FE42D0A00F6EEB0 /* Build configuration list for PBXNativeTarget "Xand0" */;
+			buildConfigurationList = 3B0C6C981FF8EC6C00D0151B /* Build configuration list for PBXNativeTarget "TictacToe" */;
 			buildPhases = (
-				3BAE9CB11FE42D0A00F6EEB0 /* Sources */,
-				3BAE9CB21FE42D0A00F6EEB0 /* Frameworks */,
-				3BAE9CB31FE42D0A00F6EEB0 /* Resources */,
+				3B0C6C821FF8EC6C00D0151B /* Sources */,
+				3B0C6C831FF8EC6C00D0151B /* Frameworks */,
+				3B0C6C841FF8EC6C00D0151B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Xand0;
-			productName = Xand0;
-			productReference = 3BAE9CB51FE42D0A00F6EEB0 /* Xand0.app */;
+			name = TictacToe;
+			productName = TictacToe;
+			productReference = 3B0C6C861FF8EC6C00D0151B /* TictacToe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3BAE9CAD1FE42D0A00F6EEB0 /* Project object */ = {
+		3B0C6C7E1FF8EC6C00D0151B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "OLPS RO TV";
 				TargetAttributes = {
-					3BAE9CB41FE42D0A00F6EEB0 = {
+					3B0C6C851FF8EC6C00D0151B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3BAE9CB01FE42D0A00F6EEB0 /* Build configuration list for PBXProject "Xand0" */;
+			buildConfigurationList = 3B0C6C811FF8EC6C00D0151B /* Build configuration list for PBXProject "TictacToe" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +117,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 3BAE9CAC1FE42D0A00F6EEB0;
-			productRefGroup = 3BAE9CB61FE42D0A00F6EEB0 /* Products */;
+			mainGroup = 3B0C6C7D1FF8EC6C00D0151B;
+			productRefGroup = 3B0C6C871FF8EC6C00D0151B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BAE9CB41FE42D0A00F6EEB0 /* Xand0 */,
+				3B0C6C851FF8EC6C00D0151B /* TictacToe */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3BAE9CB31FE42D0A00F6EEB0 /* Resources */ = {
+		3B0C6C841FF8EC6C00D0151B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BAE9CC31FE42D0A00F6EEB0 /* LaunchScreen.storyboard in Resources */,
-				3BAE9CC01FE42D0A00F6EEB0 /* Assets.xcassets in Resources */,
-				3BAE9CBE1FE42D0A00F6EEB0 /* Main.storyboard in Resources */,
+				3B0C6C941FF8EC6C00D0151B /* LaunchScreen.storyboard in Resources */,
+				3B0C6C911FF8EC6C00D0151B /* Assets.xcassets in Resources */,
+				3B0C6CA01FF8ECD600D0151B /* nought.png in Resources */,
+				3B0C6C9E1FF8ECD600D0151B /* cross.png in Resources */,
+				3B0C6C9F1FF8ECD600D0151B /* board.jpg in Resources */,
+				3B0C6C8F1FF8EC6C00D0151B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3BAE9CB11FE42D0A00F6EEB0 /* Sources */ = {
+		3B0C6C821FF8EC6C00D0151B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BAE9CBB1FE42D0A00F6EEB0 /* GameViewController.swift in Sources */,
-				3BAE9CB91FE42D0A00F6EEB0 /* AppDelegate.swift in Sources */,
+				3B0C6C8C1FF8EC6C00D0151B /* ViewController.swift in Sources */,
+				3B0C6C8A1FF8EC6C00D0151B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3BAE9CBC1FE42D0A00F6EEB0 /* Main.storyboard */ = {
+		3B0C6C8D1FF8EC6C00D0151B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3BAE9CBD1FE42D0A00F6EEB0 /* Base */,
+				3B0C6C8E1FF8EC6C00D0151B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3BAE9CC11FE42D0A00F6EEB0 /* LaunchScreen.storyboard */ = {
+		3B0C6C921FF8EC6C00D0151B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3BAE9CC21FE42D0A00F6EEB0 /* Base */,
+				3B0C6C931FF8EC6C00D0151B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3BAE9CC51FE42D0A00F6EEB0 /* Debug */ = {
+		3B0C6C961FF8EC6C00D0151B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		3BAE9CC61FE42D0A00F6EEB0 /* Release */ = {
+		3B0C6C971FF8EC6C00D0151B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,28 +282,28 @@
 			};
 			name = Release;
 		};
-		3BAE9CC81FE42D0A00F6EEB0 /* Debug */ = {
+		3B0C6C991FF8EC6C00D0151B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Xand0/Info.plist;
+				INFOPLIST_FILE = TictacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = App1.Xand0;
+				PRODUCT_BUNDLE_IDENTIFIER = App1.TictacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3BAE9CC91FE42D0A00F6EEB0 /* Release */ = {
+		3B0C6C9A1FF8EC6C00D0151B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Xand0/Info.plist;
+				INFOPLIST_FILE = TictacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = App1.Xand0;
+				PRODUCT_BUNDLE_IDENTIFIER = App1.TictacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BAE9CB01FE42D0A00F6EEB0 /* Build configuration list for PBXProject "Xand0" */ = {
+		3B0C6C811FF8EC6C00D0151B /* Build configuration list for PBXProject "TictacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BAE9CC51FE42D0A00F6EEB0 /* Debug */,
-				3BAE9CC61FE42D0A00F6EEB0 /* Release */,
+				3B0C6C961FF8EC6C00D0151B /* Debug */,
+				3B0C6C971FF8EC6C00D0151B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BAE9CC71FE42D0A00F6EEB0 /* Build configuration list for PBXNativeTarget "Xand0" */ = {
+		3B0C6C981FF8EC6C00D0151B /* Build configuration list for PBXNativeTarget "TictacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BAE9CC81FE42D0A00F6EEB0 /* Debug */,
-				3BAE9CC91FE42D0A00F6EEB0 /* Release */,
+				3B0C6C991FF8EC6C00D0151B /* Debug */,
+				3B0C6C9A1FF8EC6C00D0151B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3BAE9CAD1FE42D0A00F6EEB0 /* Project object */;
+	rootObject = 3B0C6C7E1FF8EC6C00D0151B /* Project object */;
 }
